@@ -1,0 +1,53 @@
+/* 
+    File name: App.css
+    Student's Name: Berkay Gezbeli
+    StudentID: 301428408
+    Date: 01/10/2024 (dd/mm/yyyy)
+*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #bcbcbc;
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #7a5b5b;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #634b4b;
+  border-radius: 5px;
+}
+
+.site-title {
+  color: white;
+  font-size: 24px;
+}
